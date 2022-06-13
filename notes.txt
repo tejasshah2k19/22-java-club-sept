@@ -1,0 +1,60 @@
+next() -> single word 
+nextLine() -> multi word 
+---------------------------------------------------------------------
+
+1 primitive 
+	byte:0 char:'\0' short:0 int:0 long:0 float:0.0 double:0.0 boolean:false  
+2 non primitive 
+	class:null 
+
+---------------------------------------------------------------------
+
+1) local
+2) instance 
+3) static --one and only one copy 
+
+500 instance --> localX ,500instance , 1static 
+
+
+constructor:-- value -->instance variable 
+
+1) implicit
+	1.1) default constructor  
+2) explicit
+	2.1) default constructor 
+	2.2) parameter 
+	
+	
+	constructor is a special method , which name must be same 
+	as class name and which must not have any return type. 
+	
+	use: to initialize instance variable 
+	
+	
+create class Employee 
+	having three fields 
+		name 
+		salary 
+		tax
+		
+		for input create 1 method getData()
+		for display create 1 method printData()
+		
+		we need to take care for salary and tax
+		all employee get default 10k salary 
+		and 0rs as tax. 
+		
+	
+---------------------------------------------------------------------		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
