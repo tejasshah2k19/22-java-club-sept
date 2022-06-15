@@ -46,6 +46,75 @@ create class Employee
 		
 	
 ---------------------------------------------------------------------		
+Indian cricket team always accept applications from all rounder players who 
+can bat and bowl well. but sometimes they also accept applications 
+from bats man or sometime they accept bowler.
+
+batsman gets rank on the basis of their runs
+bowler gets rank on the basis of their wickets 
+
+you need to design an app for Indian cricket board , so that all admin 
+can easily manage applications.
+
+
+Menu
+	1 For BatsMan 
+	2 For Bowler 
+	3 For Exit
+	 
+	1)
+	BatsMan 
+	Name : 
+	Age  : 
+	Run  :
+	
+	run > 1000+ [10] 
+	run > 5000+ [5 ]
+	run < 1000  [15 ] 
+	
+	2)
+	Bowler 
+	Name : 
+	Age  : 
+	Wickets  :
+	
+	Wickets > 50 + [10] 
+	Wickets > 150+ [5 ]
+	Wickets < 50   [15 ] 
+	
+	if run > 10000
+	if wickets > 350 
+	player consider as allRounder. 
+	
+	A	5500	5	AllRounder 
+	B	10		15  Bowler 
+	
+	
+class object instance variable constructor inheritance 
+switch while 
+----------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
