@@ -94,14 +94,53 @@ class object instance variable constructor inheritance
 switch while 
 ----------------------------------------------------------------------
 	
+create class Player with four property 
+name
+wickets 
+inningsPlayed
+run
+
+create appropriate methods for input and output. 
+
+
+----------------------------------------------------------------------
 	
 	
+	Task: 
+Admission to a professional course is subject to the following conditions:
+a. Marks in Mathematics >=60
+b. Marks in Physics>=50
+c. Marks in Chemistry>=40
+d. Total marks of all the three subjects>=200
+
+OR
+
+Total of Mathematics and Physics marks>=150
+
+
+Input marks of three subjects and display whether the applicant is eligible to get admission or not.
+
+Create 3 students and check who is eligible and who is not !
 	
+Name   Maths Py     Ch Total   Status 
+Ram		80	 80 	80	240		Eli 
+Sita 	40	 40 	40	120		NotEli
+Laxman  80   80     30  190     Eli  
 	
-	
-	
-	
-	
+----------------------------------------------------------------------
+Tas: 	
+ Insurance Calc 
+An insurance company follows following rules to calculate premium.
+a. If a person’s health is excellent and the person is between 25 and 35 years of age and lives in a
+city and is a male then the premium is Rs. 4 per thousand.
+b. If a person satisfies all the above conditions except that the gender is female then the premium is
+Rs. 3 per thousand.
+c. If a person’s health is poor and the person is between 25 and 35 years of age and lives in a
+village and is a male then the premium is Rs. 6 per thousand.
+d. In all other cases the person is not insured.
+Take a person's health, age, city and gender as an input and display the premium as per the rule.
+----------------------------------------------------------------------
+
 	
 	
 	
