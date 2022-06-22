@@ -102,6 +102,73 @@ run
 
 create appropriate methods for input and output. 
 
+-----------------------------------------------------------------
+with out inh :- demo - 
+class Player{
+	String type;
+	int rank;
+	int runs;
+	int wickets; 
+
+	Player(){
+		wickets = 0;
+		runs = 0; 
+	}
+}
+
+
+
+while(true){
+1 - batsman
+2 - bowler 
+0 - exit 
+int ch = scr.nextInt(); 
+
+switch(ch){
+	case 0:
+		System.exit(0);
+
+	case 1:
+Player b = new Player();
+b.type = "batsman";
+run? 
+b.runs = sc.nextInt(); 
+if(b.runs > 10000)
+	b.type = "allRounder"; 
+
+if(b.runs > 5000)
+	b.rank = 5;
+else if(b.runs > 1000)
+	b.rank = 10
+else if(b.runs < 1000 )
+	b.rank = 15 
+
+break;
+
+
+case 2:
+Player c = new Player();
+c.type = "batsman";
+c.wickets = sc.nextInt(); 
+
+if(c.wickets > 350)
+	c.type="allRounder";
+
+if(c.wickets > 150)
+	c.rank = 5;
+else if(c.wickets > 50)
+	c.rank = 10
+else if(c.runs < 50 )
+	c.rank = 15 
+
+break;
+
+}
+
+}//while 
+
+
+
 
 ----------------------------------------------------------------------
 	
@@ -128,7 +195,7 @@ Sita 	40	 40 	40	120		NotEli
 Laxman  80   80     30  190     Eli  
 	
 ----------------------------------------------------------------------
-Tas: 	
+Task: 	
  Insurance Calc 
 An insurance company follows following rules to calculate premium.
 a. If a person’s health is excellent and the person is between 25 and 35 years of age and lives in a
@@ -140,6 +207,9 @@ village and is a male then the premium is Rs. 6 per thousand.
 d. In all other cases the person is not insured.
 Take a person's health, age, city and gender as an input and display the premium as per the rule.
 ----------------------------------------------------------------------
+
+
+
 
 	
 	
