@@ -207,13 +207,81 @@ village and is a male then the premium is Rs. 6 per thousand.
 d. In all other cases the person is not insured.
 Take a person's health, age, city and gender as an input and display the premium as per the rule.
 ----------------------------------------------------------------------
+int a[] = new int[5];
+
+s.o.p(a); 
 
 
+Object class --> property --> Parent of all class --> toString() , hashcode()*  
+
+ return getClass().getName() + "@" + Integer.toHexString(hashCode());
+
+getters 
+setters 
+
+boolean active; 
+
+public boolean getActive(){
+	return active;
+}
 
 
+public boolean isActive(){
+	return active;
+}
+		
 	
-	
-	
+----------------------------------------------------------------------
+encapsulation :- wrapping up  -> single unit 
+		class 
+		pure 	
+		
+				-> variable --> private / protected  
+				-> getters setters* 
+----------------------------------------------------------------------
+University provides n number of courses. to run courses in time
+university higher faculties. faculty can be full time or part time. 
+all faculty get unique number and salary. 
+
+class University{
+	Course c[];
+}
+
+class Faculty{
+	String type;
+	int salary; 
+	int facultyId; 
+}
+
+class Course{
+
+}
+  
+----------------------------------------------------------------------
+Country always need a president to run properly. President always comes from 
+strong political party. political party must need to win higher number of 
+seats in election. citizen of country must participate in election so right 
+political party and right President for country can be selected. 
+
+
+
+
+
+
+ 
+----------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
 	
 	
 	

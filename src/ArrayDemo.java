@@ -27,6 +27,11 @@ public class ArrayDemo {
 		// kalupuar -> 1 2 3 4
 
 		//
-		
+		int k1[] = new int[5]; // In
+		int t[] = { 1, 2, 3, 4, 5 };
+		System.out.println(t);
+		float ff[] = { 12, 23 }; // F
+		System.out.println(ff);
+
 	}
 }
