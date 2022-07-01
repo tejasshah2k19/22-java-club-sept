@@ -270,9 +270,15 @@ political party and right President for country can be selected.
 
  
 ----------------------------------------------------------------------
+Amazon sell products in their webapp , every product has their name price and qty. 
+some times amazon sell products which belongs to non mfg. by indian company. 
+for non mfg of indian product amazon charge import duty of 5%. 
+amazon also sell make in india product if product belongs to make in india then
+amazon give discount of 5% in each product. 
+you need to design class , variable etc. 
 
 
-
+----------------------------------------------------------------------
 
 
 
