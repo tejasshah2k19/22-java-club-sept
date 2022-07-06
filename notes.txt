@@ -281,6 +281,62 @@ you need to design class , variable etc.
 
 
 ----------------------------------------------------------------------
+class - variable + method
+		blueprint 
+		logical entity 
+		group 
+		*encapsulation 
+		
+object - 
+
+instance variable? 
+local variable? 
+static variable?
+
+static void x;
+static int x; 
+
+object -> memory ? --> heap
+local variable ? --> stack 
+static variable? --> h 
+instance variable ? ->h 
+array -> h 
+S.o.p(x) ->
+
+
+1D
+2D
+MD
+J/R
+
+-> ? a -->  a.length 
+
+class K : mul 
+class T : add 
+class KT extends T : add
+class T{
+	protected void add()
+} 
+class KT extends T{
+	 protected void add()
+	 
+}
+ 
+private 
+default
+protected
+public
+
+
+class T{
+
+	void add(){
+	}
+	int  add(int k){
+		return 0;
+	}
+}
+
 
 
 
