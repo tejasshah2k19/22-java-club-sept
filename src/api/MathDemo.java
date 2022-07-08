@@ -6,7 +6,7 @@ import java.lang.String;
 public class MathDemo {
 
 	public static void main(String[] args) {
-//		Math m = new Math();//lang 
+//		Math m = new Math();//lang  private constructor 
 		// all static
 		String s = new String();
 
