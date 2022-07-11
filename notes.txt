@@ -336,13 +336,86 @@ class T{
 		return 0;
 	}
 }
+----------------------------------------------------------------------
+abstraction -> 
+	to hide 
+----------------------------------------------------------------------
+1) Cinemax :-
+		customer can book tickets from cinemax.
+		they can buy any number of tickets.
+		cinemax provide three types of tickets 
+		1) gold 150
+		2) silver 250
+		3) diamond 350 
+	you need to design menu driven app for customer. 
+	we have 3 customer in app. our app will ask mobile number
+	for bookings.  
+	
+	menu:-
+	1) book ticket 
+	2) view my bookings 
+	3) exit 
+
+	1) book ticket 
+			enter number 
+			9510
+			gold 
+			silver 
+			diamond
+			s 
+			5
+	2) view my bookings 
+		enter number
+		9520
+		no booking found 
+	   view my bookings 
+		enter number
+		9510
+						bill
+		silver 5	250	1250 
+	3) exit 
+ ------------------------------------------------------------------------------------------
+ 
+2) extend cinemax app and add cancel ticket feature so customer can cancel tickets.
+	refund amount need to be credited in customer's account. 
+
+	4) enter number 
+	   9510
+	   booking cancle.
+	   walletBalance = 1250				
 
 
+REfund 1)
+
+	1) book ticket 
+			enter number 
+			9510
+			gold 
+			silver 
+			diamond
+			s 
+			2
+	2) view my bookings 
+		enter number
+		9510
+						bill   walletBalance
+		silver 5	250	0       750
 
 
-
-
-
+Refund 2)
+	1) book ticket 
+			enter number 
+			9510
+			gold 
+			silver 
+			diamond
+			s 
+			10
+	2) view my bookings 
+		enter number
+		9510
+						   bill     WalletBalance
+		silver 10	250	   1250       0
 
 
 
