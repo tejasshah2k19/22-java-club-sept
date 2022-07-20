@@ -31,6 +31,8 @@ abstract class RBI {
 }
 
 abstract class PNB extends RBI {
+	//constructor
+	
 	void wid() {
 
 	}
