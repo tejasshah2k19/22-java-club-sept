@@ -418,11 +418,149 @@ Refund 2)
 		silver 10	250	   1250       0
 
 
+----------------------------------------------------------------------------------------------
+	
+	
+	
+1)_abstract__________  keyword is used to create abstract class?
 
+2)we can create only abstract method in abstract class?
+no - we can create both abstract and non abstract both method in abstract class
+
+3)we can create instance of abstract class?
+we can't - cz if we create then how we use abstract method! 
+
+4)__extends_ keyword is used to achieve inheritance?  [not extend ] 
+
+5)____________ keyword is used to achieve inheritance between interface and class.
+
+class C{
+
+}
+interface A __________  C {
+
+}
+
+ans: not possible 
+ 
+6) 
+____________ keyword is used to achieve inheritance between class and interface.
+
+interface C{
+
+}
+class A __________  C {
+
+}
+ans:  implements  [ not implement ] 
+
+ 
+7) can we have constructor in interface? 
+ans : no  [ everything is abstract in interface so we can't ] 
+
+8) ________keyword is used to achieve inheritance between interface - interface 
+
+interface A {
+}
+interface B ______ A {
+
+}
+ans: extends 
+
+
+9) ________ inheritance is achieved using interface! 
+ans : multiple  [ 1 class having more than 1 parent directly ] 
+
+interface A{
+}
+class B{
+}
+//Class C is taking property from B and A directly.
+class C extends B implements A{
+
+}
+
+10) ___________ keyword is used to access parent class property? 
+ans : super 
+
+
+----------------------------------------------------------------------------
+11) __________ keyword is used to create constant variable in java?
+ans : final 
+
+
+
+
+enum :- collection of constants 
+
+----------------------------------------------------------------------------
+encapsulation :- wrapping up of data into a single unit. 
+			     putting all methods and variables in a class 
+			     
+			     class ==> exam --> encapsulation
+			     
+			     
+			     1) variable [ private , protected ] 
+			     2) private variable --> getters setters 
+			      
+			     
+class Bank{
+	//int balance; //not good 
+  
+    private int balance; //follow this 
+    
+    public void setBalance(int amt){
+    	balance = amt; 
+    }
+    public int getBalance(){
+    	return balance;
+    }
+    
+}
+
+class ATM {
+
+	public static void main(String args[]){
 	
-	
-	
-	
+		Bank b = new Bank();
+		//b.balance = 10000; //not good 
+		
+		
+	}
+}
+			
+---------------------------------------
+
+polymorphism:-
+
+						polymorphism
+		compiletime					runtime 
+		function overloading#  			virtual function  
+		operator overloading            override 
+
+
+
+polymorphic object :- 
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
 	
 	
 	
