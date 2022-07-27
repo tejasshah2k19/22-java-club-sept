@@ -33,6 +33,7 @@ class SciCalc {
 	void sin() {
 
 	}
+
 }
 
 //1 class can only extend 1 class
