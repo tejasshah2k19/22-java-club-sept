@@ -542,8 +542,23 @@ polymorphism:-
 
 polymorphic object :- 
 
+---------------------------------------
 
-
+1) count total vowels from string. 
+2) create isAlpha(str) method which takes string as argument and return boolean,
+		it return true if all characters are alphabets otherwise return false. 
+3) take string from user and count how many time second word present in a string.
+e.g 
+	enter a string 
+	jony jony yes jony papa 
+	enter search word 
+	jony 
+	jony founds 3 time 
+	
+---------------------------------------
+	
+	
+	
 
 
 
