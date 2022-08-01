@@ -541,6 +541,25 @@ polymorphism:-
 
 
 polymorphic object :- 
+------------------------------------
+
+create a class Doctor , 
+every doctor have unique doctor id. 
+we also need to save their name and specialization. 
+
+create functions for input and print data.
+
+[class,object,constructor,function,instance variable]
+[array of object] 
+
+
+1. add doctor
+2. list 
+3. sort by ids 
+4. search doctor [ which specialization ? spine ] 
+0. exit 
+
+     int doctorId = (int)(Math.random() * 10000);
 
 ---------------------------------------
 
@@ -556,11 +575,37 @@ e.g
 	jony founds 3 time 
 	
 ---------------------------------------
+	what are the ways to create string? 
+	2
+	String str = new String("royal");
+	String str2 = "ahmedabad" ; 
 	
 	
+	String str1 = new String("royal");
+	String str2 = new String("royal");
+	String str3 = new String("royal");
 	
+	String str1 = "royal";
+	String str2 = "royal";
+	String str3 = "royal";
+	
+	String str1 = new String("royal").intern();
+	String str2 = new String("royal").intern();
+	String str3 = new String("royal").intern();
+	
+	str1 = "ram"; 
+	
+	
+	String --> immutable 
+	solution ? 
+	1) StringBuffer
+	2) StringBuilder 
 
-
+---------------------------------------
+4) search doctor in doctor app 
+4) string palindrome [SB]
+5) remove all vowels from string [SB] 
+6) 
 
 
 
