@@ -557,6 +557,7 @@ create functions for input and print data.
 2. list 
 3. sort by ids 
 4. search doctor [ which specialization ? spine ] 
+5. delete doctor [ by id ] 
 0. exit 
 
      int doctorId = (int)(Math.random() * 10000);
@@ -606,6 +607,9 @@ e.g
 4) string palindrome [SB]
 5) remove all vowels from string [SB] 
 6) 
+
+
+---------------------------------------
 
 
 
