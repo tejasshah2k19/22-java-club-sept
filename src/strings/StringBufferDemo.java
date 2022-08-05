@@ -4,13 +4,14 @@ public class StringBufferDemo {
 
 	public static void main(String[] args) {
 
+		//mutable  
 		StringBuffer sb = new StringBuffer("royal");
 		System.out.println(sb);
 	
 		sb.append("education");
-		System.out.println(sb);
+		System.out.println(sb);//royaleducation 
 	
-		System.out.println(sb.reverse());
+		System.out.println(sb.reverse());//noitacudelayor 
 	
 		
 		String str = new String("ahmedabad");
@@ -18,7 +19,9 @@ public class StringBufferDemo {
 		sbStr.append(" gujarat");
 		System.out.println(sbStr);
 		
-		str = sbStr.toString();
+		//StringBuffer s123 = new StringBuffer(scr.next()); 
+		
+		str = sbStr.toString();//StringBuffer --> String 
 		System.out.println(str);
 		
 		
@@ -34,6 +37,10 @@ public class StringBufferDemo {
 		
 		sb1.delete(0, 5);//release 5 [0 1 2 3 4 ]  
 		
-		
+		StringBuffer sba = new StringBuffer("royaleducation");
+		sba.replace(0, 2, "ROYALIndia");
+		System.out.println(sba);
+
+
 	}
 }
