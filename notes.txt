@@ -610,7 +610,127 @@ e.g
 
 
 ---------------------------------------
+Review 1:- 
 
+what is the full name of JVM ?
+Java Virtual Machine 
+
+what is class loader? 
+class loader load class files, when we run the java program it load our class. 
+java MyClass  [ class loader will load MyClass in memory then it will execute ] 
+
+
+how many types of class loader we have?
+3
+1) bootstrap
+	rt.jar [java->lang,io,util] 	
+2) extension
+	jar -> class [ext directory ] 
+3) system/application 
+	classpath [ -cp -classpath ]
+	current folder,java build path folder 
+
+
+ 
+q: can we create more than 1 public class in 1 java file ? 
+ans : no [ bcz if we have public class in java file then that file name must be same as that public class name ]
+
+
+q: can i save my jave file with .java ? 
+ans : yes 
+
+q: valid main? 
+		static public void main(Stirng args[])
+ans: yes 
+
+
+
+q: can we have recursion in java?
+ans : yes [ method -> self calling  ] 
+
+void add(){
+	add(); 
+}
+
+
+q: list out access specifier ? 
+ans : private default protected public
+
+q: list out all type of constructor in java?
+ans : default , parameterized 
+
+q: do we have return type in constructor?
+ans : no 
+
+
+q: what if i put return type in constrcotr? [ compilation error , no compilation error ]
+ans : no compilation error [ no syntax error - it will consider as method ] 
+
+q: can we have public or protected constructor? 
+ans : yes
+
+q : can we mark our constructor as an abstract? 
+ans : no
+
+
+q: can we have final constructor?
+ans : no [ final class , method , variable ] 
+
+
+q: i want to create  1 variable that is shared by all object. what is best way to do this ? 
+ans : mark your variable as static  
+
+Bank -> branchCode -> share -> customers 
+	balance --> independat 
+class Bank{
+	int balance;
+	static int branchCode=420; 
+} 
+
+
+q: ___extends____ keyword is used to achieve inheritance? 
+
+q: __extends_____keyword is used to achieve inheritance between interface? 
+
+q: __abstract_____ keyword is used to create abstract class?
+ 
+q: ___implements__ keyword is used to achieve inheritance between abstract class and interface? 
+
+q : string is muttable or immutable ? 
+ans : immutable 
+
+q : ___StringBuffer___ is thread safe and ____StringBuilder____ is not ? [ StringBuffer , StringBuilder ] 
+
+
+-------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 
 
 
