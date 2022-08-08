@@ -2,7 +2,7 @@ package inh;
 
 public class Book {
 
-	Book() {
+	public Book() {
 		System.out.println("Book()");
 	}
 
