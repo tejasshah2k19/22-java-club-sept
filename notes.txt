@@ -553,11 +553,18 @@ create functions for input and print data.
 [array of object] 
 
 
-1. add doctor
+1. add doctor [ doctor and specialization[] same -- duplicate record] 
 2. list 
 3. sort by ids 
 4. search doctor [ which specialization ? spine ] 
 5. delete doctor [ by id ] 
+6. doctor can add other specialization
+	enter id 
+	1234 
+	match 
+	add specialization  
+	CARDIAC [0:Spine,1:Cardiac]
+	  
 0. exit 
 
      int doctorId = (int)(Math.random() * 10000);
@@ -703,15 +710,23 @@ q : ___StringBuffer___ is thread safe and ____StringBuilder____ is not ? [ Strin
 
 
 -------------------------------------------------------------------------------------
+ 
+		instance initializer block		vs   constructor 
+		when we create instance 			when we create instance 
+		before constructor 					after initializer block		
+		static and non static 				static and non static init 
+		*we dont have any argument in		we have multiple argument 
+			this block						constructor 
+		same instance block can be 			same constructor can only 
+		created n time						present  1 time 
 
 
 
-
-
-
-
-
-
+static block can only initialize static variable.
+instance block can initialize both static and non static [ instance].
+ 
+static block will call only once,when class is going to load in memory 
+instance block will call when you create object. 
 
 
 
