@@ -729,14 +729,45 @@ static block will call only once,when class is going to load in memory
 instance block will call when you create object. 
 
 
+-------------------------------------------------------------------------------------
 
 
+exception ? 
+
+error --> 
+1) compile time -- syntax 
+2) run time -- .class -> run --> crash 
+
+exception - runtime error 
+
+exception handling -->
 
 
+ATM -> 
+	card -> 20,000 -> money wid :) 
+	
+	2007-2008 -> 5 lac ->
+	card -> 2000  -> money wid :) 
+	
+	17-> 15-> 2000 [30000] [28000]  
+	
+	
+	TV remote -> TV 
+	
+	keyboard -> 1234  [IOException]
+	
 
-
-
-
+exception handling --> run time error -> handle -> 
+					CRASH 
+					REASON 
+					
+how? 
+		try  -> ?? where 
+		catch		-> what? reason	
+					
+					
+try-catch
+try-catch-catch-catch 					
 
 
 

@@ -39,7 +39,10 @@ class India {
 		}
 
 		System.out.println("*************");
-		india.add();//
+		india.add();// polymorphic object
+					// compiletime --> add() parent
+					// runtime --> add() child
+		((Delhi) (india)).add();
 	}
 
 	static void add(double x, double y) {
