@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class ArithMeticDemo {
 
 	public static void main(String[] args) {
+
 		Scanner scr = new Scanner(System.in);
 		System.out.println("Enter two numbers");
 
@@ -23,7 +24,6 @@ public class ArithMeticDemo {
 			// sendMailToDev(e.printStackTrace())
 			e.printStackTrace();
 		}
-	
 		System.out.println("END");
 	}
 }

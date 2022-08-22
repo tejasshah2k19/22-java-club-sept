@@ -769,6 +769,93 @@ how?
 try-catch
 try-catch-catch-catch 					
 
+-------------------------------------------------------------
+what is an exception ? 
+
+____try___ and __catch_____ keyword we use to handle exception? 
+
+__finally__ blocks will executes all the time in exception handeling? 
+
+_Exception_ is the parent of all exception class? 
+
+__Throwable__ is the parent of Exception clasS?
+
+___Error__ and __Exception__ are child of Throwable class? 
+
+__InputMismatchException___ exception thorws when we enter letters instead of integer?
+
+
+InputMismatchException  is belongs to ___java.util___ package?
+
+
+how many types of exception class we have?  2 
+list out?
+1) checked exception -- compulsory --> handle
+2) unchecked exception -- your choice --> 
+
+
+ArithmeticException
+InputMismatchException 
+
+
+IOException 
+
+
+try catch -->   throws 
+
+
+how to know given exception class is checked or unchecked? 
+
+					Object
+					Thorwable 
+			Error				Exception
+						RuntimeException		IOException,FileNotFoundException 
+						   ArithmeticException
+						   InputMismatchException
+						   NullPointerException
+					           ArrayIndexOutofBoundsException 	
+					
+-------------------------------------------------------------------------------------------
+
+how to create custom / used define exception ? 
+
+why?
+
+google --> 
+
+LoginWithGoogle --> 
+
+royal.com -> Signup / Login / LoginWithGoogle 
+google api -> use -> api? --> url --> google server 
+
+checkEmailAndPassword(email,password)
+	true 
+	false 
+	
+
+email    :  abc
+password :  abc123 
+
+ 
+how? 
+
+1) class -> extends Exception 
+2) reason - msg - constructor - parent 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 
 
 
