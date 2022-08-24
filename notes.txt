@@ -842,6 +842,9 @@ how?
 1) class -> extends Exception 
 2) reason - msg - constructor - parent 
 
+--------------------------------------------------------
+
+
 
 
 
