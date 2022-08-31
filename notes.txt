@@ -844,6 +844,13 @@ how?
 
 --------------------------------------------------------
 
+We have to implement wallet app like paytm. 
+user can signup and access their wallet balance for various stores/online platform. 
+user can add balance from their bank account. 
+for accessing bank account by wallet we need user's account number , account name , bank code , ifsccode and otp. 
+user can add max 10000 in wallet. 
+
+create class and methods for above application. 
 
 
 
