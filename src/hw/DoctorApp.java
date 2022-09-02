@@ -25,18 +25,23 @@ public class DoctorApp {
 				System.exit(0);
 			case 1:
 				Doctor d = new Doctor();
-				System.out.println("Enter name and specialization");
-				d.name = scr.next();
-				d.specialization = scr.next();
+				d.scanDoctor();
 				docList.add(d);
 
 				break;
 			case 2:
 				for (int i = 0; i < docList.size(); i++) {
-					System.out.println(docList.get(i).doctorId + " : " + docList.get(i).name + " : "
-							+ docList.get(i).specialization);
+					docList.get(i).printData();
 				}
-
+				break;
+			case 3:
+				System.out.println("Enter doctor name");
+				String name = scr.next();
+				for (int i = 0; i < docList.size(); i++) {
+					if (docList.get(i).getName().startsWith(name)) {
+						docList.get(i).printData();
+					}
+				}
 				break;
 			}
 		}
@@ -44,12 +49,28 @@ public class DoctorApp {
 }
 
 class Doctor {
-	int doctorId;
-	String name;
-	String specialization;
+	private int doctorId;
+	private String name;
+	private String specialization;
 
 	public Doctor() {
 		this.doctorId = (int) (Math.random() * 100000);// 0.12152533
+	}
+
+	public void scanDoctor() {
+		Scanner scr = new Scanner(System.in);
+		System.out.println("Enter name and specialization");
+		name = scr.next();// bad
+		specialization = scr.next();// bad
+
+	}
+
+	public void printData() {
+		System.out.println(doctorId + " :: " + name + " :: " + specialization);
+	}
+
+	public String getName() {
+		return name;
 	}
 
 }
