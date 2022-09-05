@@ -18,6 +18,7 @@ public class DoctorApp {
 			System.out.println("2 For List Doctros");
 			System.out.println("3 For Search By Name");
 			System.out.println("4 For Search By Specialization");
+			//
 			System.out.println("Enter your choice!!!");
 			choice = scr.nextInt();
 			switch (choice) {
