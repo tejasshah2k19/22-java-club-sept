@@ -885,7 +885,7 @@ draw ->  7
 
 1.
 	Name : Sita 
-	Amount : 1000
+	Amount : 500
 	LuckyNumber : 3
 
 
@@ -897,6 +897,7 @@ draw ->  7
 
 2 -> random ->  7 
 	No Winner 
+	//reset app 
 
 
 0. exit
@@ -906,11 +907,14 @@ draw ->  7
 2 -> random ->  9
 	Winner : 
 		Ram 
+		
 -------------------------------------------------------------------------------
 
 
 2 -> reset app 
-3 -> divide wining ammount  
+3 -> divide wining amount  //multiple user  
+
+winning amount = 2500 
 
 
 
