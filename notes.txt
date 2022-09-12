@@ -916,8 +916,42 @@ draw ->  7
 
 winning amount = 2500 
 
+-------------------------------------
+
+student can signup and login 
+admin can only login
+faculty can login 
 
 
+admin can add batch , add faculty , add student 
+
+faculty can add student 
+faculty  can add batch 
+faculty and admin can add student into batch 
+
+
+admin can view reports 
+1) all students
+2) all faculty 
+3) all batch 
+4) batch with student details
+
+
+---------------------------------
+class
+     variable  
+we maintain 1 list for users 
+2nd list for batch
+
+ 
+ class -> Admin,Faculty,Student 
+ 
+ class User{
+ 	//fn email pwd 
+ 	//role
+ }
+
+ 
  
 
 
