@@ -18,14 +18,12 @@ public class CalendarDemo {
 		// Capital -> constant --> final
 
 		System.out.println(c.getTimeInMillis());
-		
-		Date d1 = new Date(); //today
+
+		Date d1 = new Date(); // today
 		Date d2 = new Date(1662559959874L);
 		System.out.println(d1);
 		System.out.println(d2);
-		
-		
-		
+
 	}
-	
+
 }
