@@ -950,12 +950,34 @@ we maintain 1 list for users
  	//fn email pwd 
  	//role
  }
+------------------------------------------------------------
+royal app 
 
+3 course 
+2 student 
+
+app close -> 
+
+after 2 days ->  open -> 
+
+save -> store -> storage 
+		1) file 
+		2) database 
  
  
+java.io 
+	File class -> new delete size hidden? readOnly? folder?  content of the folder 
+ 	
+Take two file names from user 
 
-
-
+q1: 
+check first file is present ? 
+	if yes then check second file is present ?
+			if yes then print all files exists
+if first file is not present then create it
+			if second file is not present then create it. 
+				 
+			
 
 
 
