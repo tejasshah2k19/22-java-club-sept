@@ -34,6 +34,11 @@ public class FileDemo {
 		even.delete(); //boolean
 		
 	
+		File x = new File("d://temp//abc.txt");
+		x.isHidden(); // boolean 
+		x.canRead(); //boolean 
+		x.canWrite();//boolean 
+		
 	
 	
 	}

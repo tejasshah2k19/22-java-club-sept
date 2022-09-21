@@ -977,7 +977,44 @@ check first file is present ?
 if first file is not present then create it
 			if second file is not present then create it. 
 				 
+q2: 
+take file name from user and find total size in mb of that file. 
+----------------------------------------------------------
+which package we use for file operation ? 
+java.io 
+
+which class we use for file operation? 
+File 
+
+
+_______ method is used to create file of File class?
+createNewFile() 
+
+
+
+__________ exception is thrown by createNewFile()? 
+IOException 
+
+
+-----------------------------------------------------------------
+
+				Read Write 
 			
+			
+	Byte							Character 
+
+
+
+FileReader 
+FileWriter 
+		
+
+1) Take 10 characters from user and store into file data.txt
+	data.txt -> royal education 
+2) read data.txt file and store non-vowels into non-vowels.txt file. 
+ 	non-vowels.txt 
+ 	ryl dctn
+ 	
 
 
 
