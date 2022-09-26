@@ -25,7 +25,6 @@ public class FileWriteReadDemo {
 				break;
 			}
 			System.out.print((char) b);
-
 		}
 
 		fr.close();
