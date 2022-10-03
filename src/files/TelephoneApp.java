@@ -19,7 +19,9 @@ public class TelephoneApp {
 		File f = new File("d://temp//contacts.txt");
 		FileReader fr = new FileReader(f);
 		BufferedReader br = new BufferedReader(fr); // 1 => single line -> entire 1 line
-
+		
+		
+		//below code will read all data from files and store into my arraylist 
 		while (true) {
 
 			String data = br.readLine();// first line
@@ -36,6 +38,9 @@ public class TelephoneApp {
 			contacts.add(c);
 		}
 		br.close();
+		
+		
+		//menu 
 		while (true) {
 			System.out.println(
 					"\n1 for add contact\n2 for list all contacts\n3 for search contact by name\nenter your choice ..");

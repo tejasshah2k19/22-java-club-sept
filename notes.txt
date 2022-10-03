@@ -1005,8 +1005,13 @@ IOException
 
 
 
-FileReader 
-FileWriter 
+FileReader(C) 
+FileWriter(C) 
+
+FileInputStream -> Read
+FileOutputStream -> Write 
+
+java --> file --> hi --> 
 		
 
 1) Take 10 characters from user and store into file data.txt
@@ -1014,6 +1019,28 @@ FileWriter
 2) read data.txt file and store non-vowels into non-vowels.txt file. 
  	non-vowels.txt 
  	ryl dctn
+----------------------------------------------------------------
+
+user data -> file -> 
+
+	fn ln em pwd pan tax 
+	15 
+	
+	
+	
+	10 user -> write? 
+
+Serialization -> writing a state[variable] of instance[object] into a file. 
+
+
+//Serializable -> signal -> User class -> instance -> file ->store 
+// marker interface --> an interface which does not have any method 
+//empty interface 
+
+
+
+
+
  	
 
 
