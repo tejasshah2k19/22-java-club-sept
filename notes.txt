@@ -1037,6 +1037,52 @@ Serialization -> writing a state[variable] of instance[object] into a file.
 // marker interface --> an interface which does not have any method 
 //empty interface 
 
+---------------------------------------------------------------------------
+StudentScheduler:- 
+
+University offers n number of courses to the students, 
+all courses has limited seats for students.
+student can opt for any courses by their choice. 
+we have to design an automated system that allocates courses to the student. 
+
+courses:- 
+C  : 3 
+   [ram,ravan,laxman] 
+C++ : 4
+   [laxman,shyam,ravan,ram]  
+Java : 5
+   [shyam,ram,laxman,ravan] 
+
+
+students:- 
+ram
+	c java c++ 
+shyam
+	java c++ c 
+laxman
+	c++ c java 
+ravan 
+	c c++ java 
+	
+
+allocate(){
+	read courses 
+	read students -> choice 
+	
+	a -> c 
+	
+	
+	c 
+		ram shyam laxman
+	c++
+		laxman shyam ravan ram 
+	java 
+		shyam ram laxman ravan 
+
+}
+
+//class object constructor array list method variable String 
+
 
 
 
