@@ -1084,13 +1084,46 @@ allocate(){
 //class object constructor array list method variable String 
 
 
+---------------------------------------------------------------------------
 
 
+package 
+	System Scanner Date Cal PrintWriter String 
+	DateFormat 
 
+1) in built  
+	java 
+		io
+		security 
+		lang
+		applet 
+		util 
+			text 
+
+2) user define 
+
+		
+import java.util.Scanner; 
+
+		
+folder -> 
+	movie -> HW: ENG H M  BW TW 
+	prog
+	pic 
+	
  	
+module -> file 
+package -> directory -> 
 
 
+import Date from DateTime [ python ] 
+import Time from DateTime 
 
+import Date from sql.DateTime 
+ 
+ 
+
+import java.util.Date; 
 
 
 
@@ -1098,6 +1131,38 @@ allocate(){
 
 
  
+we need to create two package 
+basic 
+scientific 
+
+inside basic package we have BaisCalc 
+			add()
+			sub() 
+			
+inside scientific package we have ScieCalc 
+			sqr()
+			cube() 
+	
+inside calc package we create Calc class 		
+		Calc 
+			BasicCalc 
+			ScieCalc 
+	
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

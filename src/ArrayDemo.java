@@ -2,7 +2,6 @@
 public class ArrayDemo {
 
 	public static void main(String[] args) {
-
 		int a[];// dec
 		a = new int[5];// 5*4=20byte
 		int b[] = new int[5];
