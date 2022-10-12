@@ -1217,6 +1217,12 @@ autoboxing :-
 		
 
 
+copy d://temp//a.txt d://secondtemp//b.txt 
+
+
+content d://temp
+list out all the files and folders of D://temp 
+
 
 
 
