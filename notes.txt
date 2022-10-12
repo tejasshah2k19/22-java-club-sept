@@ -1149,7 +1149,80 @@ inside calc package we create Calc class
 			ScieCalc 
 	
 
+ --------------------------------------------------------------
  
+ _pacakge_____ keyword is used in java to define package?
+  
+ if i have 1 class in royal package 
+ royal class has 2 method add and sub 
+ then which access specifier i need to use in add and sub method so that 
+ i can access that method in child class? 
+ ans: public or protected 
+ 
+ 
+ __public______ access specifiers can be used for a class so that its memebers can be 
+ accessed by a different class in the different package. 
+ 
+ ___lang_____ package contains all the standard java classes?
+ 
+lang contains all the standard classes that is required by any java program and 
+that's why it will automatically imported when we compile java file. 
+so default first import line of all the class file is 
+
+import java.lang.*; 
+
+ -----------------------------------------------------------------------------
+							ACCESS SPECFIER'S TABLE 
+			
+packageA 		packageB 
+X				D
+Y				E extends X  
+Z extends X 
+
+public X - public add(), protected sub() , mul() ,private div()
+
+ 
+							private		 default	protected 	 public 
+		X [same class]			Y			Y			Y			Y			
+		Y [same pack.			N 			Y			Y			Y
+		   non sub ] 
+		Z [same pack.			N			Y			Y			Y
+		   sub class]   
+		D [ diff pack.			N			N			N			Y 
+		    non sub ]
+		E [ diff pack.			N			N			Y			Y
+		    sub class]     
+	
+
+ -----------------------------------------------------------------------------
+
+Wrapper class ?
+			convert your primitive to non primitive [ object ]  
+			non primitive [object] to primitive 
+			
+1.5 
+
+byte -	Byte 
+short - Short
+char - Character
+int - Integer 
+long - Long 
+float - Float 
+double - Double
+boolean - Boolean 
+
+autoboxing :- 
+		boxing 
+		unBoxing 
+		
+
+
+
+
+
+ 
+
+
 
 
 
