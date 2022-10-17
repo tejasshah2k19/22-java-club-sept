@@ -1037,6 +1037,7 @@ Serialization -> writing a state[variable] of instance[object] into a file.
 // marker interface --> an interface which does not have any method 
 //empty interface 
 
+**transient** 
 ---------------------------------------------------------------------------
 StudentScheduler:- 
 
@@ -1225,10 +1226,34 @@ list out all the files and folders of D://temp
 
 
 
-
+G.C -> System.gc(); 
  
+ 
+ nio -> new io 
+ 	working with io -> new -> 1.4
+ 	1.7 -> 7 -> buffer ,  
 
-
+	1) speed
+	2) remove native 
+	
+	
+	io -> File 	
+	
+	nio -> Files(C) , Path(I) , Paths(C)
+	
+	File f = new File("demo.txt"); 
+	f.createNewFile(); 
+	
+	
+	Path p = Paths.get("demo.txt");  
+	Files.createFile(p); 
+	 
+	
+	
+	
+	
+			
+	
 
 
 
