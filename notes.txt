@@ -1248,6 +1248,13 @@ G.C -> System.gc();
 	Path p = Paths.get("demo.txt");  
 	Files.createFile(p); 
 	 
+--------------------------------------------------
+inner class 
+
+1) inner class - class inside class 
+2) nested class | nested inner class - static class inside class 
+3) method local inner class - class inside method
+4) anno. inner class 
 	
 	
 	
