@@ -1,0 +1,62 @@
+
+--------------------------------------------------------------------		
+Thread -> 	
+	
+
+1gb ram -> 
+
+200 mb ->
+500 mb -> copy paste 
+300 mb -> 
+100 mb-> wait 
+
+
+1gb ram -> 
+play movie -> 1080 HD -> 1.5gb size 
+
+2gb -> 
+			
+4 gb -> 
+
+8 gb -> 
+
+
+
+process -> inde. self space , no share 	, allocation - free 
+
+thread1  thread2 thread3 
+500mb   500mb  500mb
+
+500mb | 500mb | 500mb
+
+
+movie-> thread -> 500mb ->
+
+---------------------------------------------
+1 to 1000 sum  [100 5 second , 50 second ] 
+1 to 100 // 5
+101 to 200 //5
+201 to 300 //5 
+.......
+901 to 1000 //5 => 50 second 
+
+thread 10 -> 5 second + 2 second -> 7 second 
+------------------------------------------
+
+
+1) extends Thread
+2) implements Runnable
+
+
+
+
+
+
+
+
+
+
+
+
+
+
