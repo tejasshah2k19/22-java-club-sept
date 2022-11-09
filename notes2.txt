@@ -49,6 +49,26 @@ thread 10 -> 5 second + 2 second -> 7 second
 
 
 
+two level of lock
+
+1) instance - instance variable 
+2) class  - static variable 
+
+how ? 
+synchronized 
+
+when?
+shared / common resource 
+	instance variable - instance level lock - single instance - all thread  
+	static variable - class level lock  - all instance - all thread 
+
+1) method 
+2) block 
+
+
+
+
+
 
 
 
