@@ -65,7 +65,32 @@ shared / common resource
 1) method 
 2) block 
 
+------------------------------------------
 
+
+t1 -> 1 to 10 
+t2 -> 11 to 20
+t3 -> 21 to 30 
+
+t1 + t2 + t3 
+
+
+------------------------------------------
+t1 -> running -->
+t2 -> runnable --> 
+
+
+t1 sum 1 to 10  [ 1min ]
+t2 sum 11 to 20 [ 1min ] 
+t3 sum 21 to 30 [ 1min ]
+total -> 1 min -> 3 thread are done 
+
+concurrency 
+
+
+Queue ->
+
+Executors -> 
 
 
 
