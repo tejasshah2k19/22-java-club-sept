@@ -93,6 +93,49 @@ Queue ->
 Executors -> 
 
 
+what are the ways we have to create thread ? 
+2
+list out all!
+extends Thread 
+implements Runnable 
+
+which method we can use to merge a thread?
+join()
+
+which method(s) we used to block a thread? 
+sleep()
+wait()
+suspend()
+
+
+which method(s) we can use to bring back thread from block to 
+	active state?
+
+notify()
+notifyAll() 
+resume() 
+
+which method used to switching thread between running and runnable? 
+yield()
+
+
+which method kills the thread?
+stop()
+
+which method we used to create stack for thread?
+start()
+
+------------------------------------------------------------------------
+
+speed - resource utilization 
+
+
+FixedThreadPool() 
+ask -> 3- worker -
+
+ 
+
+
 
 
 
