@@ -133,6 +133,41 @@ speed - resource utilization
 FixedThreadPool() 
 ask -> 3- worker -
 
+ --------------------------------------------------
+ collection  - topic - api - framework
+Collection  - interface 
+Collections - class
+
+
+
+data -> operation -> store -> add de
+
+
+
+amazon -> tv ===request=====> server  ==tv====> db====>select * => tv [50] 
+
+
+				Collection
+List			Queue			Set		|		Map
+ArrayList		PriorityQueue		HashSet				HashMap
+Vector						TreeSet   			TreeMap
+
+
+1) duplicate  [ArrayList,Vector,PriorityQueue,data:Map]
+2) unique     [HashSet,TreeSet]
+3) order      [ArrayList,Vector] 
+4) unorder    [HashSet]
+5) sorted     [TreeSet]
+6) unSorted   [ArrayList,Vector]
+
+
+amazon -> db -> product -> [ duplicates] 
+amazon -> db -> product -> price -> L to Highest
+amazon -> db -> product -> price -> duplicate and L to Highest
+
+
+
+
  
 
 

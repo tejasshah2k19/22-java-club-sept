@@ -8,8 +8,9 @@ public class ArrayListDemo {
 	public static void main(String[] args) {
 
 		// dynamic array
-		ArrayList<Integer> list = new ArrayList<Integer>();// 10
+//		ArrayList<Integer> list = new ArrayList<Integer>();// 10
 
+		ArrayList<Integer> list = new ArrayList<>();// 10
 		list.add(10);// 0th index
 		list.add(20);// 1st index
 		list.add(30);// 2nd index
@@ -30,5 +31,26 @@ public class ArrayListDemo {
 		for (int i = 0; i < list.size(); i++) {
 			System.out.println(list.get(i));
 		}
+
+		list.remove(0);// 0th index
+		// 20 30
+		System.out.println(list);// 20 30
+
+		// search
+		System.out.println(list.contains(10));// false
+
+		list.add(55);
+		// 20 30 55
+
+		list.add(0, 100);
+//		100 20 30 55 
+
+		ArrayList<Integer> list1 = new ArrayList<>();// 10
+
+		list1.add(2000);
+		list1.add(12000);
+		list.addAll(list1);
+		// 100 20 30 55 2000 12000
+
 	}
 }

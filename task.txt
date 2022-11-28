@@ -1,0 +1,56 @@
+An educational institute wishes to maintain a database of its employees. The database is
+divided into a number of classes whose hierarchy is as given below. The figure shows the
+minimum required information of each class. Specify all the classes and define functions
+to create the database and retrieve individual information as and when required.
+
+check edu.jpeg file for entire structure.
+
+design class method etc and then perform following operation.
+
+Using the above structure create the menu driven program for sorting the data as follows:
+• Data of teachers should be sorted subject wise.
+• Data of typist should be sorted speed wise.
+• Data of officer should be sorted grade wise.
+
+-------------------------------------------------------------------------------------------------
+
+
+*) Take 5 numbers from user store in ArrayList
+	1) find min and max
+	2) sum of all even and odd elements 
+	3) search given element in list if present print found else not found 
+	4) remove all duplicates from ArrayList 
+	
+*) Game - Two Player 
+
+cards -> 52 [positive numbers ]
+
+	masterDeck [ 10 5 25 22 63 63 22 9 ] 
+
+A 26				B 26 
+	aDeck			bDeck
+			8	10
+	battle ->	b is winner so 8 and 10 append into bDeck 
+	
+	
+aDeck [10 25 63 22] 		bDeck[5 22 63  9]
+			   battle=>10	5
+	  [25 63 22]			[22 63 9] 	
+			      a win 
+	  [25 63 22 10 5 ] 		      
+			   battle => 25 22 
+			    a win 
+	  [ 63 22 10 5 25 22 ] 	[63 9]
+			battle => 63	63
+			
+play till either A or B has 0 card and declare winner 
+game can draw also.
+
+				
+-------------------------------------------------------------------------------------------------
+
+
+	  		      	
+ 
+	
+	
