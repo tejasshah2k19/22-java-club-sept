@@ -1,16 +1,15 @@
 package collection;
 
-import java.util.ArrayList;
 import java.util.Scanner;
+import java.util.Vector;
 
-public class ArrayListDemo {
-
+public class VectorDemo {
 	public static void main(String[] args) {
 
 		// dynamic array
 //		ArrayList<Integer> list = new ArrayList<Integer>();// 10
 
-		ArrayList<Integer> list = new ArrayList<>();// 10
+		Vector<Integer> list = new Vector<>();// 10
 		list.add(10);// 0th index
 		list.add(20);// 1st index
 		list.add(30);// 2nd index
@@ -45,7 +44,7 @@ public class ArrayListDemo {
 		list.add(0, 100);
 //		100 20 30 55 
 
-		ArrayList<Integer> list1 = new ArrayList<>();// 10
+		Vector<Integer> list1 = new Vector<>();// 10
 
 		list1.add(2000);
 		list1.add(12000);
