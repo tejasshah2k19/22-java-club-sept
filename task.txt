@@ -48,6 +48,59 @@ game can draw also.
 
 				
 -------------------------------------------------------------------------------------------------
+ expense manager -> 
+
+user [5 point ]
+    userid:1,name:abc,username:aaa,password:bbb 
+    userid:2,name:def,username:def,password:def
+
+expense [ 5 point ]
+    title:party,vendor:ccd,amount:2300,description:dummy ,date:12-dec-2022,userid:2[login] 
+
+10-dec-2022  :  2000 ccd [1]
+10-dec-2022  :  1500 fs  [1]
+22-dec-2022  :  2500 sainik [1] 
+
+1. signup [2 point ]
+2. login  [2 point  ]
+3. exit   [ - ]
+
+
+login :-
+
+1) Add Exp  [2 point ]
+2) View Exp [2 point ]
+3) Date Report  [ sum of exp for each day of month[dec-2022]    ]   [ 10 point ]
+4) Vendor Report [ sum of exp for each vendor of month[dec-2022] ]  [ 10 point ]
+5) logout 
+
+
+10-Dec-2022  3500
+22-Dec-2022  2500
+
+ccd          2300 
+wallmart     25000
+
+class , object , collection , methods 
+*) try to avoid static memory or array use collection 
+*) make instance variable private 
+*) you can store all info into file to persist data. [ 30 point ] 
+-------------------------------------------------------------
+1) 
+take sachin dhoni sehwag kohli , information from internet and make 25 mb of word file or text
+file now read that file and check how many times 
+		1.1) sachin kohali dhoni sehwag are present 
+		1.2) how many words we have in file 
+		1.3) how many palindrome strings we have in file 
+
+2) using concurrency 
+take sachin dhoni sehwag kohli , information from internet and make 25 mb of word file or text
+file now read that file and check how many times 
+		1.1) sachin kohali dhoni sehwag are present 
+		1.2) how many words we have in file 
+		1.3) how many palindrome strings we have in file 
+ 
+-------------------------------------------------------------
 
 
 	  		      	

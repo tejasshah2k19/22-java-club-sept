@@ -180,7 +180,10 @@ insertAtLast
 0
 7
 
-
+Set
+	HashSet [unSorted] 
+	TreeSet [sorted]
+	
 
 
 
