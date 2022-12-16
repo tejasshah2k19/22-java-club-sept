@@ -1,0 +1,18 @@
+start -> mysql -> mysql commnadline -> root 
+
+create database advjavasep;
+
+create table users (
+	userId integer primary key auto_increment,
+	firstName varchar(30),
+	email varchar(30),
+	password varchar(30)
+
+);
+
+
+open mysql commandline tool 
+root 
+use advajavasep;
+now paste your query.
+
