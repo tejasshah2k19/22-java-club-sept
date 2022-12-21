@@ -3,66 +3,46 @@ package db;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 import threadd.FirstThread;
 
 public class UserOperation {
 
-	static void addUser() {
+	public static void main(String[] args) {
+
 		Scanner scr = new Scanner(System.in);
 		System.out.println("Enter firstName email and password");
 		String firstName = scr.next();
 		String email = scr.next();
 		String password = scr.next();
 
-		try {
-			// connection
-			Class.forName("com.mysql.cj.jdbc.Driver");
-			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/advjavasep", "root", "root");
-			PreparedStatement pstmt = con
-					.prepareStatement("insert into users (firstName,email,password) values (?,?,?)");
-			pstmt.setString(1, firstName);
-			pstmt.setString(2, email);
-			pstmt.setString(3, password);
+		UserBean userx = new UserBean();
+		userx.setFirstName(firstName);
+		userx.setEmail(email);
+		userx.setPassword(password);
 
-			pstmt.executeUpdate(); // insert update delete -> DML
-			System.out.println("record inserted....");
-			// query execute
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
+		UserDao.addUser(userx);
 
-	}
-
-	static void deleteUser() {
-		Scanner scr = new Scanner(System.in);
+		// ==================
 		System.out.println("Enter userId?");
 		int userId = scr.nextInt();
+		UserDao.deleteUser(userId);
 
-		try {
-			// connection
-			Class.forName("com.mysql.cj.jdbc.Driver");
-			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/advjavasep", "root", "root");
-			PreparedStatement pstmt = con.prepareStatement("delete from users where userId = ? ");
-			pstmt.setInt(1, userId);
-			int record = pstmt.executeUpdate(); // insert update delete -> DML
-			if (record == 0) {
-				System.out.println("userId not found...Invalid UserID");
-			} else {
-				System.out.println("record delete...");
-			}
-			// query execute
-		} catch (Exception e) {
-			e.printStackTrace();
+		// =================
+
+		ArrayList<UserBean> users = UserDao.listUsers();
+
+		for (UserBean user : users) {
+			System.out.println(
+					user.getUserId() + "\t" + user.getFirstName() + "\t" + user.getEmail() + "\t" + user.getPassword());
+
 		}
 
-	}
-
-	public static void main(String[] args) {
-
-		// firstName email password -> scan
-		// db save
-		deleteUser();
+		System.out.println(" ----  second ---");
+		users.forEach(user -> System.out.println(
+				user.getUserId() + "\t" + user.getFirstName() + "\t" + user.getEmail() + "\t" + user.getPassword()));
 	}
 }
