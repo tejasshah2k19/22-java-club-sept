@@ -1,0 +1,35 @@
+java 8 
+
+**marker interface --> 
+	an interface that does not have any method - empty interface 
+	->Serializable 
+			
+8->functional interface --> 
+		an interface that have only 1 abstract method 
+
+Runnable 		
+	run() 
+-----------------------------------------------------
+stream api 
+
+	java 8 -> java.util.stream 
+			class , interfaces ,enums 
+			
+		1) stream will not save any data 
+		
+		
+		ArrayList -> users -> age 15+ 
+		
+		users.filter(age).filter(name).filter(city)
+					15+			a 			 a 	
+					
+		java -> python 
+		
+		java -> oop -> fop -> pop -> dynamic data type 
+		javascript ->
+
+
+functional interface  -> 
+
+
+

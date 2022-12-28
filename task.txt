@@ -101,7 +101,28 @@ file now read that file and check how many times
 		1.3) how many palindrome strings we have in file 
  
 -------------------------------------------------------------
+GUI + DB 
 
+
+	Signup firstname email password 
+	Login email password 
+		all task 
+		X		modify delete 
+		Y
+		Z
+		addtask 
+	
+		
+	task 
+			title : 		java session
+			date time : 	22-dec 7 pm 
+			description 	java club
+			userId:user 	1 [ auto ] 
+			isCompleted 	no 
+			
+			
+	
+	
 
 	  		      	
  
