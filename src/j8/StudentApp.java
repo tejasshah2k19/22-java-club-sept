@@ -2,6 +2,7 @@ package j8;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 public class StudentApp {
@@ -23,7 +24,18 @@ public class StudentApp {
 		List<String> names = students.stream().filter(s -> s.age > 25).map(s -> s.name).collect(Collectors.toList());
 		// ArrayList => 25+
 		System.out.println(names);
+		
+		students.stream().filter(new AgeFilter()).map(s->s.name).collect(Collectors.toList());
+		
 	}
+}
+
+class AgeFilter implements Predicate<StudentBean> {
+
+	public boolean test(StudentBean t) {
+		return t.age >25;
+	}
+
 }
 
 class StudentBean {

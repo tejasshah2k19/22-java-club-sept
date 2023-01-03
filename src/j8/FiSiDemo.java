@@ -1,5 +1,7 @@
 package j8;
 
+import java.util.function.Predicate;
+
 public class FiSiDemo {
 
 	public static void main(String[] args) {

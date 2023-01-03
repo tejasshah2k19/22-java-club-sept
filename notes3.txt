@@ -31,5 +31,15 @@ stream api
 
 functional interface  -> 
 
+	Consumer 
+		accpet()				
+	Predicate
+		test()
+	Supplier 
+		get() 
+	Function 
+		apply() 
+	
+
 
 
