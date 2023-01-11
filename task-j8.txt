@@ -1,0 +1,48 @@
+1) Create 1 List of user's first name and convert all first name in upper case and then print your list 
+2) Create 1 List of Integer numbers and find max and sum from it using stream 
+3) Create 1 List of Integer numbers and sort in descending order. 
+
+
+list.stream().reduce(0,ArithmeticUtils::add);
+list.stream().collect(Collectors.suminInt(Integer::intValue))
+
+list.stream().mapToInt(Integer::intValue).sum();
+
+-----------------------------------------------
+
+data base -> stream 
+ResultSet -> List -> stream 
+
+-----------------------
+
+difference between Stream and Collection? 
+	collection contains elements /data
+	stream works on data / list / collection / view 
+
+foreach()?
+	iterate 
+
+what is the use of map function ? 
+	when we want to apply some function or login in collection*
+	transfrom one type of data into another type based on your function/logic 
+	
+
+what does the filter() do? 
+	filter data based on some condition [ Predicate ] 
+	
+	
+What is the difference between intermediate and terminal operation on stream? 
+	intermediate returns another stream - we can pipeline another function 
+		like 
+				list.stream().filter(codition).map().filter().... 
+					here filter is intermediate operation we can now apply pipeline on it.
+				
+				terminal operation:- 	
+				list.stream().filter(condition).foreach()* 
+				list.stream().filter(condition).collectors()* 
+
+
+stream is lazy? 
+	list.stream().filter().map().collect->memory   //5 lac 
+ 
+ 
