@@ -1,0 +1,61 @@
+PortfolioApp is used to manage portfolio of the user. 
+what we covered?
+1) User can Signup and Login  [ bean package ] 
+2) User Can reset password using security question [ Random oop ] 
+3) once user login they can add stocks in their portfolio 
+4) addStock -> [ class oop inheritance ]
+		stockName , sector , price , qty , purchaseDate we need to ask!
+	 
+4) ListMyStock -> [ collection stream ] 
+		List out user's portfolio - all stocks 
+		stockName , sector , price , qty , purchaseDate 
+		RIL			FMCG	2200	200		1-1-2023
+		ONGC 		GAS		75		1000	1-7-2022
+		L&T 		GAS		1500	100		1-8-2022
+		
+5) GainReport [ collection stream ] [ today's price ? file ] 
+		User can view Report in which we list stock name with profile 
+		StockName 	Gain%	GainRS
+		RIL			7%		15000
+		ONGC		15%		22000
+		L&T			-14% 	-17000	
+6) Month Base Return
+		11-1-2023 
+		StockName 	Gain%	GainRS		Month	Yield 
+		RIL			7%		65000		1		7%
+		ONGC		15%		22000		6		15/6
+		L&T			-14% 	-17000		5		-14%
+	
+7) Qtr Base Return 	[3 month ] 
+
+8)  Month Base Return Sort in Desc [ Comparator comparable ] 
+		StockName 	Gain%	GainRS		Month	Yield 
+		ONGC		15%		22000		6		15/6	
+		RIL			7%		15000		1		7%
+		L&T			-14% 	-17000		5		-14%
+		
+9) Export Reports user wise [ concurrency file ]
+	10 user 
+	tejas@gmail.com.xls 
+	ram@gmail.com.xls 
+			
+			
+db:
+	user 
+	stock 
+	user_stock 
+	
+::::
+Stock 
+	addStock()
+	listMyStock()
+	
+
+
+StockImpl 
+	define 
+
+
+
+
+		
